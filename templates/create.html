@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{% block title %} Inclusão de local de coleta {% endblock %}</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="title">Local</label>
+        <input type="text" name="title" placeholder="Local" class="form-control" value="{{ request.form['title'] }}"></input>
+    </div>
+
+    <div class="form-group">
+        <label for="content">Endereço</label>
+        <textarea name="content" placeholder="Endereço" class="form-control">{{ request.form['content'] }}</textarea>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</form>
+{% endblock %}
