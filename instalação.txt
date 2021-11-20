@@ -1,0 +1,34 @@
+1-criar pasta mkdir blog
+2-cd blog
+3-instalar virtualenv - pip install virtualenv
+4-virtualenv env
+5-env\Scripts\activate (dentro da pasta blog. sempre que abrir o terminal)
+6-pip3 install flask (instala o flask)
+7-pip3 install sqlalchemy
+8-pip3 install flask-sqlalchemy
+9-no pycharmy abrir a pasta blog
+10-no pycharmy criar arquivo app.PY
+11-Em 09m23s em vez de:
+export FLASK_APP=app (Linux)
+usar 
+set FLASK_APP=app para definir o app depois flask run
+set FLASK_ENV=development
+12-No primeiro teste em 10m43s não dar CTRL+C se não para o servidor
+Bootstrap bibliotecas CSS
+13-python3 init.db.py executar python init.db.py
+
+1-CD blog
+2-env\Scripts\activate (2 vezes)
+3-set FLASK_APP=app
+4-set FLASK_ENV=development
+5-flask run
+
+
+env\Scripts\activate
+set FLASK_APP=app
+set FLASK_ENV=development
+
+<p class="text-justify">Ambitioni </p>
+bootsnipp.com/forms
+
+https://github.com/Miltonkk04/PI2021-ioil.git
