@@ -2,7 +2,7 @@
 
 {% block content %}
     <h2>{% block title %} iOIL um facilitador no processo de coleta de óleo usado de cozinha {% endblock %}</h2>
-    <h3>Clique no nome do local para ver o endereço</h3>
+    <h3>Clique no nome do local para ver o endereço</h3><BR>
     {% for post in posts %}
         <a href="{{ url_for('post', post_id=post['id'])}}">
             <h2>{{ post['title'] }}</h2>
